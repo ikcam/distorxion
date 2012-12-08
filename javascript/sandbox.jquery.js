@@ -26,7 +26,7 @@ jQuery(document).ready(function($){
 	});
 
 	$('#bt-pause').click(function(){
-		$('#audio')[0].stop();
+		$('#audio')[0].pause();
 	});
 
 	$('#bt-voldown').click(function(){
