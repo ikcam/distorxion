@@ -27,7 +27,6 @@ table{width:100%;}
 table td,table th{border-bottom:1px solid #ddd;padding:.5em .5em .5em 0;vertical-align:baseline}
 table th{text-transform:uppercase}
 header#header{clear:both;margin-bottom:1em;}
-header#header h1#blog-title{font-weight:bold;font-size:2em;line-height:1.5em;}
 header#header h1#blog-title a{text-decoration:none}
 nav#menu-main{margin-bottom:1em;}
 nav#menu-main:after{content:'.';clear:both;display:block;height:0;visibility:hidden}
@@ -41,7 +40,7 @@ nav.navigation div.nav-previous{float:left}
 nav.navigation div.nav-next{float:right}
 nav.navigation a{display:inline-block;padding:.25em 1em}
 section#content article.post{padding-bottom:1.25em;margin-bottom:1.25em}
-h2.entry-title,h2.page-title,h3.entry-title{font-size:1.6em;font-weight:bold;line-height:1.25em;padding:.25em 0}
+h2.entry-title,h2.page-title,h3.entry-title{font-size:1.6em;line-height:1.25em;padding:.25em 0}
 h3.entry-title{font-size:1.4em;line-height:1.1em}
 .entry-content,section#comments{overflow:hidden;}
 .entry-content h1,section#comments h1,.entry-content h2,section#comments h2,.entry-content h3,section#comments h3,.entry-content h4,section#comments h4,.entry-content h5,section#comments h5,.entry-content h6,section#comments h6{clear:both;font-weight:bold}
@@ -74,7 +73,7 @@ p img,.wp-caption{margin-top:.4em}
 .alignright{display:inline;float:right;margin-left:1.625em}
 .aligncenter{clear:both;display:block;margin-left:auto;margin-right:auto}
 aside.sidebar > ul > li{margin-bottom:1.5em;}
-aside.sidebar > ul > li > h3{font-weight:bold;font-size:1.2em;padding:0 0 .25em}
+aside.sidebar > ul > li > h3{font-size:1.4em;padding:0 0 .25em}
 aside.sidebar > ul > li ul{list-style:square;padding:0 0 0 20px}
 @font-face{font-family:'Montserrat';src:url("font/montserrat-regular.eot");src:url("font/montserrat-regular.eot?#iefix") format('embedded-opentype'),url("font/montserrat-regular.woff") format('woff'),url("font/montserrat-regular.ttf") format('truetype'),url("font/montserrat-regular.svg#montserrat-regular") format('svg');font-weight:normal;font-style:normal}
 body{background:#ccc}
@@ -84,7 +83,9 @@ h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#009874}
 h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{background:#009874;color:#fff;display:inline-block;padding:.1em}
 section#wrapper{background:#fff}
 header#header{padding:.5em;}
-header#header h1#blog-title{font-size:3.5em}
+header#header h1#blog-title{font-size:3.5em;font-weight:normal;line-height:1em;margin-bottom:.2em;}
+header#header h1#blog-title:hover a{color:#000}
+header#header h1#blog-title:hover span{background:#000;color:#fff}
 nav#menu-main > ul > li{margin-right:.1em;}
 nav#menu-main > ul > li > a{background:#009874;color:#fff}
 nav#menu-main > ul > li:hover > a{background:#000}
