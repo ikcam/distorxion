@@ -103,7 +103,7 @@ jQuery(document).ready(function($){
     action: 'sandbox_streaming_song'
   };
 
-  $.post(ajaxurl, data, function(response) {
+  $.post('http://distorxionradio.com/new', data, function(response) {
     $('div.player > div.song').text(response);
   });
 
