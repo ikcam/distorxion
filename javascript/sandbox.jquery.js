@@ -33,10 +33,10 @@ jQuery(document).ready(function($){
   dancer = new Dancer();
   kick = dancer.createKick({
     onKick: function () {
-      ctx.strokeStyle = '#ff0077';
+      ctx.strokeStyle = '#009874';
     },
     offKick: function () {
-      ctx.strokeStyle = '#666';
+      ctx.strokeStyle = '#333';
     }
   }).on();
 
@@ -64,6 +64,9 @@ jQuery(document).ready(function($){
     dancer.play();
   }
 
+  var vol_saved = 0.7;
+  dancer.setVolume(vol_saved);
+
 	$('#bt-play').click(function(){
 		dancer.play();
 	});
@@ -73,12 +76,26 @@ jQuery(document).ready(function($){
 	});
 
 	$('#bt-voldown').click(function(){
+    var volume = dancer.getVolume();
+    volume = volume - 0.1;
+    dancer.setVolume(volume);
 	});
 
 	$('#bt-volup').click(function(){
+    var volume = dancer.getVolume();
+    volume = volume + 0.1;
+    dancer.setVolume(volume);
 	});
 
 	$('#bt-mute').click(function(){
-	})
+    if( dancer.getVolume() === 0 ){
+      dancer.setVolume(vol_saved);
+      $(this).text('Mute');
+    } else {
+      vol_saved = dancer.getVolume();
+      dancer.setVolume(0);
+      $(this).text('Unmute');
+    }
+	});
 });
 
