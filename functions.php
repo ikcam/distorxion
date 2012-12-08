@@ -412,16 +412,6 @@ function widget_sandbox_streaming($args){
 				<source src="//distorxionradio.com:8000/;stream.mp3" type="audio/mp3" />
 			</audio>
 			<canvas id="waveform" height="100" width="290"></canvas>
-			<div class="controls">
-				<span id="bt-play">Play</span>
-				<span id="bt-pause">Pause</span>
-			</div>
-			<div class="volumen">
-				<span id="bt-voldown">v-</span>
-				<span id="bt-volup">V+</span>
-				<span id="bt-mute">Mute</span>
-			</div>
-			<div class="song"></div>
 		</div>
 	<?php echo $after_widget ?>
 <?php
