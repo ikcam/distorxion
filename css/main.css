@@ -43,7 +43,7 @@ section#content article.post{padding-bottom:1.25em;margin-bottom:1.25em}
 h2.entry-title,h2.page-title,h3.entry-title{font-size:1.6em;line-height:1.25em;padding:.25em 0}
 h3.entry-title{font-size:1.4em;line-height:1.1em}
 .entry-content,section#comments{overflow:hidden;}
-.entry-content h1,section#comments h1,.entry-content h2,section#comments h2,.entry-content h3,section#comments h3,.entry-content h4,section#comments h4,.entry-content h5,section#comments h5,.entry-content h6,section#comments h6{clear:both;font-weight:bold}
+.entry-content h1,section#comments h1,.entry-content h2,section#comments h2,.entry-content h3,section#comments h3,.entry-content h4,section#comments h4,.entry-content h5,section#comments h5,.entry-content h6,section#comments h6{clear:both}
 .entry-content h1,section#comments h1{font-size:2em;margin:.67em 0}
 .entry-content h2,section#comments h2{font-size:1.5em;margin:.83em 0}
 .entry-content h3,section#comments h3{font-size:1.17em;margin:1em 0}
@@ -89,7 +89,8 @@ header#header h1#blog-title:hover span{background:#000;color:#fff}
 nav#menu-main > ul > li{margin-right:.1em;}
 nav#menu-main > ul > li > a{background:#009874;color:#fff}
 nav#menu-main > ul > li:hover > a{background:#000}
+div.player span:hover{cursor:pointer}
 div.player div.controls{float:left}
-div.player div.volume{float:right}
+div.player div.volumen{float:right}
 div.player div.song{clear:both}
 footer#footer{font-size:.8em;text-align:center}

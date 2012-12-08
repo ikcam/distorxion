@@ -414,7 +414,7 @@ function widget_sandbox_streaming($args){
 
 			<div class="controls">
 				<span id="bt-play">Play</span>
-				<span id="bt-pause">Play</span>
+				<span id="bt-pause">Pause</span>
 			</div>
 			<div class="volumen">
 				<span id="bt-voldown">v-</span>
