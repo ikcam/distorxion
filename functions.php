@@ -409,16 +409,20 @@ function widget_sandbox_streaming($args){
 		<h3 class="widget-title"><span>Re</span>productor</h3>
 		<div class="player">
 			<canvas id="audio" height="100" width="290"></canvas>
+
 			<div class="controls">
 				<span id="bt-play">Play</span>
 				<span id="bt-pause">Pause</span>
 			</div>
+
 			<div class="volumen">
 				<span id="bt-voldown">v-</span>
 				<span id="bt-volup">V+</span>
 				<span id="bt-mute">Mute</span>
 			</div>
+
 			<div class="song">
+
 			</div>
 		</div>
 	<?php echo $after_widget ?>
@@ -724,6 +728,14 @@ function sandbox_enqueue_css(){
 
 	echo  $output;
 }
+
+function sandbox_streaming_song(){
+	$song = file_get_contents('http://distorxionradio.com/response.php');
+	echo $song;
+
+	die();
+}
+add_action('wp_ajax_nopriv_my_action', 'sandbox_streaming_song');
 
 // Sandbox Admin Panel
 include('inc/admin.php');

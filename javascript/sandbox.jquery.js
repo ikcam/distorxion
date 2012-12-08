@@ -97,5 +97,15 @@ jQuery(document).ready(function($){
       $(this).text('Unmute');
     }
 	});
+
+
+  var data = {
+    action: 'sandbox_streaming_song'
+  };
+
+  $.post(ajaxurl, data, function(response) {
+    $('div.player > div.song').text(response);
+  });
+
 });
 
