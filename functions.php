@@ -411,7 +411,7 @@ function widget_sandbox_streaming($args){
 			<audio id="audio" autoplay>
 				<source src="//distorxionradio.com:8000/;stream.mp3" type="audio/mp3" />
 			</audio>
-
+			<canvas id="waveform" height="300" width="150"></canvas>
 			<div class="controls">
 				<span id="bt-play">Play</span>
 				<span id="bt-pause">Pause</span>

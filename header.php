@@ -73,6 +73,16 @@ endif; // site_gplus
 <!--[if lt IE 9]>
 	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/src/dancer.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/src/support.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/src/kick.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/src/adapterWebkit.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/src/adapterMoz.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/src/adapterFlash.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/lib/fft.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/lib/flash_detect.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/plugins/dancer.fft.js"></script>
+		<script src="<?php echo get_template_directory_uri() ?>/javascript/plugins/dancer.waveform.js"></script>
 <?php wp_head() // For plugins ?>
 </head>
 
