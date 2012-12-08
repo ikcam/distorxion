@@ -422,7 +422,7 @@ function widget_sandbox_streaming($args){
 			</div>
 
 			<div class="song">
-
+				Cargando...
 			</div>
 		</div>
 	<?php echo $after_widget ?>
