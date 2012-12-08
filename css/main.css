@@ -40,7 +40,7 @@ nav.navigation:after{content:'.';clear:both;display:block;height:0;visibility:hi
 nav.navigation div.nav-previous{float:left}
 nav.navigation div.nav-next{float:right}
 nav.navigation a{display:inline-block;padding:.25em 1em}
-section#content article.post{border-bottom:1px solid #ddd;padding-bottom:1.25em;margin-bottom:1.25em}
+section#content article.post{padding-bottom:1.25em;margin-bottom:1.25em}
 h2.entry-title,h2.page-title,h3.entry-title{font-size:1.6em;font-weight:bold;line-height:1.25em;padding:.25em 0}
 h3.entry-title{font-size:1.4em;line-height:1.1em}
 .entry-content,section#comments{overflow:hidden;}
@@ -76,3 +76,12 @@ p img,.wp-caption{margin-top:.4em}
 aside.sidebar > ul > li{margin-bottom:1.5em;}
 aside.sidebar > ul > li > h3{font-weight:bold;font-size:1.2em;padding:0 0 .25em}
 aside.sidebar > ul > li ul{list-style:square;padding:0 0 0 20px}
+@font-face{font-family:'Montserrat';src:url("font/montserrat-regular.eot");src:url("font/montserrat-regular.eot?#iefix") format('embedded-opentype'),url("font/montserrat-regular.woff") format('woff'),url("font/montserrat-regular.ttf") format('truetype'),url("font/montserrat-regular.svg#montserrat-regular") format('svg');font-weight:normal;font-style:normal}
+body{background:#fff}
+h1,h2,h3,h4,h5,h6{color:#009874;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#009874}
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{background:#009874;color:#fff;display:inline-block}
+section#wrapper{background:#fff}
+div.player div.controls{float:left}
+div.player div.volume{float:right}
+div.player div.song{clear:both}

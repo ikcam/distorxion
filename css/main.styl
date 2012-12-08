@@ -156,7 +156,6 @@ nav.navigation
 section#content			
 	
 	article.post
-		border-bottom 1px solid #DDD
 		padding-bottom 1.25em
 		margin-bottom 1.25em
 
@@ -338,6 +337,9 @@ aside.sidebar
 	font-weight normal
 	font-style normal
 
+body
+	background #FFF
+
 h1,
 h2,
 h3,
@@ -354,12 +356,15 @@ h6
 		color #FFF
 		display inline-block
 
-
 section#wrapper
-	width 960px
-
+	background #FFF
 
 div.player
 	div.controls
 		float left
-		
+
+	div.volume
+		float right
+
+	div.song
+		clear both
