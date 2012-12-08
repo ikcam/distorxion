@@ -94,5 +94,5 @@ div.player span{display:inline-block;color:#fff;padding:.1em .2em;}
 div.player span:hover{background:#000;cursor:pointer}
 div.player div.controls{float:left}
 div.player div.volumen{float:right}
-div.player div.song{clear:both;font-weight:bold;padding:.5em}
+div.player div.song{clear:both;color:#fff;font-weight:bold;padding:.5em}
 footer#footer{font-size:.8em;text-align:center}
