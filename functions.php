@@ -408,9 +408,6 @@ function widget_sandbox_streaming($args){
 	<?php echo $before_widget ?>
 		<h3 class="widget-title"><span>Re</span>productor</h3>
 		<div class="player">
-			<audio id="audio" autoplay>
-				<source src="//distorxionradio.com:8000/;stream.mp3" type="audio/mp3" />
-			</audio>
 			<canvas id="waveform" height="100" width="290"></canvas>
 		</div>
 	<?php echo $after_widget ?>
