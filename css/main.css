@@ -88,10 +88,11 @@ header#header h1#blog-title:hover span{background:#000;color:#fff}
 nav#menu-main > ul > li{margin-right:.1em;}
 nav#menu-main > ul > li > a{background:#009874;color:#fff}
 nav#menu-main > ul > li:hover > a{background:#000}
+div.player{background:#009874;}
 div.player canvas#audio{background:#ddd}
-div.player span{background:#009874;display:inline-block;color:#fff;padding:.1em;}
+div.player span{display:inline-block;color:#fff;padding:.1em .2em;}
 div.player span:hover{background:#000;cursor:pointer}
 div.player div.controls{float:left}
 div.player div.volumen{float:right}
-div.player div.song{clear:both}
+div.player div.song{clear:both;font-weight:bold;padding:.5em}
 footer#footer{font-size:.8em;text-align:center}
