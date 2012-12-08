@@ -402,6 +402,31 @@ function widget_sandbox_rsslinks_control() {
 <?php
 }
 
+function widget_sandbox_streaming($args){
+	extract($args);
+?>
+	<?php echo $before_widget ?>
+		<?php echo $before_title . $title . $after_title; ?>
+		<div class="player">
+			<audio id="audio">
+				<source src="//distorxionradio.com:8000/;stream.mp3" type="audio/mp3" />
+			</audio>
+
+			<div class="controls">
+				<span id="bt-play">Play</span>
+				<span id="bt-pause">Play</span>
+			</div>
+			<div class="volumen">
+				<span id="bt-voldown">v-</span>
+				<span id="bt-volup">V+</span>
+				<span id="bt-mute">Mute</span>
+			</div>
+			<div class="song"></div>
+		</div>
+	<?php echo $after_widget ?>
+<?php
+}
+
 // Widgets plugin: intializes the plugin after the widgets above have passed snuff
 function sandbox_widgets_init() {
 	if ( !function_exists('register_sidebars') )
@@ -435,6 +460,12 @@ function sandbox_widgets_init() {
 	);
 	wp_register_sidebar_widget( 'rss_links', __( 'RSS Links', 'sandbox' ), 'widget_sandbox_rsslinks', $widget_ops );
 	wp_register_widget_control( 'rss_links', __( 'RSS Links', 'sandbox' ), 'widget_sandbox_rsslinks_control' );
+
+	$widget_ops = array(
+		'classname'    =>  'widget_sandbox_streaming',
+		'description'  =>  __( "Audio Streaming Widget", "sandbox" )
+	);
+	wp_register_sidebar_widget( 'streaming', __( 'Radio Widget', 'sandbox' ), 'widget_sandbox_streaming', $widget_ops );
 }
 
 // Translate, if applicable
