@@ -37,12 +37,6 @@
         connectContext.call( _this );
       }
 
-      this.audio.addEventListener( 'progress', function ( e ) {
-        if ( e.currentTarget.duration ) {
-          _this.progress = e.currentTarget.seekable.end( 0 ) / e.currentTarget.duration;
-        }
-      });
-
       return this.audio;
     },
 
