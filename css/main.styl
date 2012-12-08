@@ -340,6 +340,9 @@ aside.sidebar
 body
 	background #CCC
 
+a
+	transition all .3s ease-in-out
+
 h1,
 h2,
 h3,
@@ -347,6 +350,7 @@ h4,
 h5,
 h6
 	font-family 'Montserrat'
+	font-weight normal
 	color #009874
 
 	a
@@ -361,15 +365,26 @@ h6
 section#wrapper
 	background #FFF
 
-nav#menu
+header#header
+	padding .5em
+
+	h1#blog-title
+		font-size 3.5em
+
+nav#menu-main
 
 	> ul
 
 		> li
 			margin-right .1em
+			
 			> a
 				background #009874
 				color #FFF
+
+			&:hover
+				> a
+					background #000
 
 div.player
 
@@ -381,3 +396,7 @@ div.player
 
 	div.song
 		clear both
+
+footer#footer
+	font-size .8em
+	text-align center
