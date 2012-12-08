@@ -48,15 +48,9 @@ jQuery(document).ready(function($){
 		}
 	})
 
-});
-
-
-(function () {
-
-  var
-    AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp3',
-    waveform = document.getElementById( 'waveform' ),
-    ctx = waveform.getContext( '2d' ),
+  var AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp3',
+    waveform = $('#waveform'),
+    ctx = waveform.getContext('2d'),
     dancer, kick;
 
   /*
@@ -101,8 +95,5 @@ jQuery(document).ready(function($){
 
     dancer.play();
   }
+});
 
-  // For debugging
-  window.dancer = dancer;
-
-})();

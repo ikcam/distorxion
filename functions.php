@@ -409,6 +409,12 @@ function widget_sandbox_streaming($args){
 		<h3 class="widget-title"><span>Re</span>productor</h3>
 		<div class="player">
 			<canvas id="waveform" height="100" width="290"></canvas>
+			<div class="controls">
+			</div>
+			<div class="volumen">
+			</div>
+			<div class="song">
+			</div>
 		</div>
 	<?php echo $after_widget ?>
 <?php
