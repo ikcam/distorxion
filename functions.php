@@ -406,7 +406,7 @@ function widget_sandbox_streaming($args){
 	extract($args);
 ?>
 	<?php echo $before_widget ?>
-		<?php echo $before_title . $title . $after_title; ?>
+		<h3 class="widget-title"><span>Re</span>productor</h3>
 		<div class="player">
 			<audio id="audio">
 				<source src="//distorxionradio.com:8000/;stream.mp3" type="audio/mp3" />
