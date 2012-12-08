@@ -408,10 +408,15 @@ function widget_sandbox_streaming($args){
 	<?php echo $before_widget ?>
 		<h3 class="widget-title"><span>Re</span>productor</h3>
 		<div class="player">
-			<canvas id="waveform" height="100" width="290"></canvas>
+			<canvas id="audio" height="100" width="290"></canvas>
 			<div class="controls">
+				<span id="bt-play">Play</span>
+				<span id="bt-pause">Pause</span>
 			</div>
 			<div class="volumen">
+				<span id="bt-voldown">v-</span>
+				<span id="bt-volup">V+</span>
+				<span id="bt-mute">Mute</span>
 			</div>
 			<div class="song">
 			</div>

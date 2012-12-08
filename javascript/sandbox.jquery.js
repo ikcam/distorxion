@@ -49,7 +49,7 @@ jQuery(document).ready(function($){
 	})
 
   var AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp3',
-    waveform = $('#waveform'),
+    waveform = $('#audio'),
     ctx = waveform.getContext('2d'),
     dancer, kick;
 
@@ -83,8 +83,7 @@ jQuery(document).ready(function($){
    */
 
   function loaded () {
-    var
-      supported = Dancer.isSupported(),
+    var supported = Dancer.isSupported(),
       p;
 
     if ( !supported ) {
