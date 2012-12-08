@@ -64,6 +64,7 @@ endif; // site_gplus
 	<link rel="pingback" href="<?php bloginfo('pingback_url') ?>" />
 
 	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700" type="text/css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/main.css" />
 	<link rel="stylesheet" href="<?php sandbox_enqueue_css() ?>" />
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/shortcodes.css" />
