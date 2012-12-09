@@ -526,7 +526,7 @@ function sandbox_post_image(){
 		endforeach;
 	endif;
 
-	if( $post_image == '' )
+	if( !$post_image )
 		echo get_template_directory_uri() . '/images/logo.png';
 	else
 		echo $post_image[0];
