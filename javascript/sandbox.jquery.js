@@ -26,8 +26,8 @@ jQuery(document).ready(function($){
    * Dancer.js magic
    */
   Dancer.setOptions({
-    flashSWF : '../../lib/soundmanager2.swf',
-    flashJS  : '../../lib/soundmanager2.js'
+    flashSWF : 'lib/soundmanager2.swf',
+    flashJS  : 'lib/soundmanager2.js'
   });
 
   dancer = new Dancer();
