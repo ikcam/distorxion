@@ -98,6 +98,13 @@ jQuery(document).ready(function($){
     }
 	});
 
+  var data = {
+    action: 'sandbox_streaming_song'
+  };
+
+  $.post('http://distorxionradio.com/response.php', data, function(response) {
+    $('div.player > div.song').text(response);
+  }); 
 
   setInterval(function(){
     var data = {
