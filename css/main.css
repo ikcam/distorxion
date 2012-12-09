@@ -76,7 +76,7 @@ aside.sidebar > ul > li{margin-bottom:1.5em;}
 aside.sidebar > ul > li > h3{font-size:1.4em;padding:0 0 .25em}
 aside.sidebar > ul > li ul{list-style:square;padding:0 0 0 20px}
 body{background:#ccc}
-a{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
+a{color:#009874;-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;-ms-transition:all .3s ease-in-out;transition:all .3s ease-in-out;text-decoration:none}
 h1,h2,h3,h4,h5,h6{font-family:'Montserrat';font-weight:normal;color:#009874;}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:#009874}
 h1 span,h2 span,h3 span,h4 span,h5 span,h6 span{background:#009874;color:#fff;display:inline-block;padding:.1em}
@@ -92,7 +92,7 @@ div.player{background:#009874;}
 div.player canvas#audio{background:#ddd}
 div.player span{display:inline-block;color:#fff;padding:.1em .2em;}
 div.player span:hover{background:#000;cursor:pointer}
-div.player div.controls{float:left}
-div.player div.volumen{float:right}
+div.player div.controls{float:left;padding-bottom:.2em}
+div.player div.volumen{float:right;padding-bottom:.2em}
 div.player div.song{border-top:2px solid #fff;clear:both;color:#fff;font-weight:bold;padding:.5em}
 footer#footer{font-size:.8em;text-align:center}
