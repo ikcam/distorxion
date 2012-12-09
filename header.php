@@ -34,7 +34,7 @@ if ( $settings['site_og'] == 1 ) :
 	<meta property="og:title" content="<?php bloginfo('name') ?>" />
 	<meta property="og:url" content="<?php echo home_url() ?>" />
 	<meta property="og:description" content="<?php bloginfo('description') ?>" />
-	<meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/logo.png' ?>" />
+	<meta property="og:image" content="<?php echo get_template_directory_uri() . '/images/logo.jpg' ?>" />
 <?php 
 	endif;
 endif; // site_og
@@ -50,7 +50,7 @@ if( $settings['site_gplus'] == 1 ) :
 	<!-- Google Plus One (NOT SINGLE) -->
 	<meta itemprop="name" content="<?php bloginfo('name') ?>">
 	<meta itemprop="description" content="<?php bloginfo('description') ?>">
-	<meta itemprop="image" content="<?php echo get_template_directory_uri() . '/images/logo.png' ?>">
+	<meta itemprop="image" content="<?php echo get_template_directory_uri() . '/images/logo.jpg' ?>">
 <?php 
 	endif;
 endif; // site_gplus 
