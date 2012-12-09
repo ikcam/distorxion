@@ -527,7 +527,7 @@ function sandbox_post_image(){
 	endif;
 
 	if( !isset($post_image) )
-		echo $settings['site_logo'];
+		echo get_template_directory_uri() . '/images/logo.png';
 	else
 		echo $post_image[0];
 }
