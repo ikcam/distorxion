@@ -736,6 +736,7 @@ function sandbox_streaming_song(){
 	die();
 }
 add_action('wp_ajax_nopriv_my_action', 'sandbox_streaming_song');
+remove_action('wp_head','jetpack_og_tags');
 
 // Sandbox Admin Panel
 include('inc/admin.php');
