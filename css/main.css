@@ -40,7 +40,7 @@ nav.navigation div.nav-previous{float:left}
 nav.navigation div.nav-next{float:right}
 nav.navigation a{display:inline-block;padding:.25em 1em}
 section#content article.post{padding-bottom:1.25em;margin-bottom:1.25em}
-h2.entry-title,h2.page-title,h3.entry-title{font-size:1.6em;line-height:1.25em;padding:.25em 0}
+h2.entry-title,h2.page-title,h3.entry-title{font-size:1.6em;line-height:1em;margin:0 0 .25em}
 h3.entry-title{font-size:1.4em;line-height:1.1em}
 .entry-content,section#comments{overflow:hidden;}
 .entry-content h1,section#comments h1,.entry-content h2,section#comments h2,.entry-content h3,section#comments h3,.entry-content h4,section#comments h4,.entry-content h5,section#comments h5,.entry-content h6,section#comments h6{clear:both}
