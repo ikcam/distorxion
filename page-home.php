@@ -11,7 +11,7 @@ Template Name: Home Page
 <?php the_post() ?>
 
 			<article id="post-<?php the_ID() ?>" class="<?php sandbox_post_class() ?>">
-				<h2 class="entry-title"><?php the_title() ?></h2>
+				<h2 class="entry-title"><span>Ch</span>at</h2>
 				<div class="entry-content">
 <?php the_content() ?>
 
