@@ -103,5 +103,5 @@ div#simple-ajax-chat #sac-output #sac-latest-message{background:#ccc;color:#fff;
 div#simple-ajax-chat #sac-output #sac-messages{font-size:.9em;list-style:none;margin:0;padding:0;}
 div#simple-ajax-chat #sac-output #sac-messages > li > span{font-weight:bold}
 div#simple-ajax-chat #sac-panel{background:#009874;color:#fff;font-size:.8em;padding:.5em;}
-div#simple-ajax-chat #sac-panel > div{font-weight:bold}
+div#simple-ajax-chat #sac-panel label{font-weight:bold}
 div#simple-ajax-chat #sac-panel input[type="text"]{width:60%}
