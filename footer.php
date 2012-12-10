@@ -2,9 +2,7 @@
 	<footer id="footer">
 		<?php sandbox_footer_sidebars() ?>
 
-		<span id="generator-link"><a href="http://wordpress.org/" title="<?php _e( 'WordPress', 'sandbox' ) ?>" rel="generator">WordPress</a></span>
-		<span class="meta-sep">|</span>
-		<span id="theme-link"><a href="https://github.com/ikcam/Sandbox-HTML5" title="<?php _e( 'Sandbox theme for WordPress', 'sandbox' ) ?>" rel="designer">Sandbox</a></span>
+		<span> &copy; 2012 - Todos los Derechos Reservados para <a href="<?php echo home_url() ?>/">DistorXion Radio</a></span>
 		<?php wp_footer() ?>
 	</footer><!-- #footer -->
 

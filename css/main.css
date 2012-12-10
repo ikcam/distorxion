@@ -97,3 +97,10 @@ div.player div.controls{float:left;padding-bottom:.2em}
 div.player div.volumen{float:right;padding-bottom:.2em}
 div.player div.song{border-top:2px solid #fff;clear:both;color:#fff;font-weight:bold;padding:.5em}
 footer#footer{font-size:.8em;text-align:center}
+div#simple-ajax-chat{overflow:hidden;width:90%;}
+div#simple-ajax-chat #sac-output{clear:both;}
+div#simple-ajax-chat #sac-output #lastest-message{background:#ccc;color:#fff;font-size:.7em;padding:0 .5em}
+div#simple-ajax-chat #sac-output #sac-messages{font-size:.9em;list-style:none;margin:0;padding:0;}
+div#simple-ajax-chat #sac-output #sac-messages > li{padding:0 .5em;}
+div#simple-ajax-chat #sac-output #sac-messages > li > span{font-weight:bold}
+div#simple-ajax-chat #sac-panel{font-size:.8em}
