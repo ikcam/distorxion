@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
 		});
 	});
 
-  var AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp3',
+  var AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp4',
     waveform = $('#audio')[0],
     ctx = waveform.getContext('2d'),
     dancer, kick;
@@ -26,8 +26,8 @@ jQuery(document).ready(function($){
    * Dancer.js magic
    */
   Dancer.setOptions({
-    flashSWF : 'lib/soundmanager2.swf',
-    flashJS  : 'lib/soundmanager2.js'
+    flashSWF : '/new/wp-content/themes/distorxion/javascript/lib/soundmanager2.swf',
+    flashJS  : '/new/wp-content/themes/distorxion/javascript/lib/soundmanager2.js'
   });
 
   dancer = new Dancer();
@@ -63,6 +63,9 @@ jQuery(document).ready(function($){
 
     dancer.play();
   }
+
+  var vol_saved = 0.7;
+  dancer.setVolume(vol_saved);
 
 	$('#bt-play').click(function(){
 		dancer.play();
