@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
 		});
 	});
 
-  var AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp4',
+  var AUDIO_FILE = 'http://distorxionradio.com:8000/;stream.mp3',
     waveform = $('#audio')[0],
     ctx = waveform.getContext('2d'),
     dancer, kick;
@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
   }).on();
 
   dancer
-    .load({ src: AUDIO_FILE, codecs: [ 'ogg', 'mp3', 'mp4' ]})
+    .load({ src: AUDIO_FILE, codecs: [ 'ogg', 'mp3' ]})
     .waveform( waveform, { strokeStyle: '#666', strokeWidth: 2 });
 
   Dancer.isSupported() || loaded();
