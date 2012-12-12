@@ -64,9 +64,6 @@ jQuery(document).ready(function($){
     dancer.play();
   }
 
-  var vol_saved = 0.7;
-  dancer.setVolume(vol_saved);
-
 	$('#bt-play').click(function(){
 		dancer.play();
 	});
