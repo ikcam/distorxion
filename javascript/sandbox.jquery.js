@@ -41,7 +41,7 @@ jQuery(document).ready(function($){
   }).on();
 
   dancer
-    .load({ src: AUDIO_FILE, codecs: [ 'ogg', 'mp3' ]})
+    .load({ src: AUDIO_FILE, codecs: [ 'ogg', 'mp3', 'mp4' ]})
     .waveform( waveform, { strokeStyle: '#666', strokeWidth: 2 });
 
   Dancer.isSupported() || loaded();
